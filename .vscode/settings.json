@@ -1,0 +1,18 @@
+{
+    // Set Python indentation to 4 spaces
+    "editor.tabSize": 4,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "[python]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4
+    },
+
+    // Enable NumPy style docstrings
+    "python.linting.pylintArgs": [
+        "--docstring-convention=numpy"
+    ],
+
+    // Set column limit to 120 characters
+    "editor.rulers": [120]
+}
