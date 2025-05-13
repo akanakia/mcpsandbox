@@ -97,6 +97,11 @@ Forecast: {period['detailedForecast']}
 
 @mcp.tool()
 def get_local_time(latitude: float, longitude: float) -> str:
+    """Get the local time for a given latitude and longitude.
+    Args:
+        latitude: Latitude of the location
+        longitude: Longitude of the location
+    """
     tf = TimezoneFinder()
     timezone_str = tf.timezone_at(lng=longitude, lat=latitude)
 
@@ -112,3 +117,8 @@ def get_local_time(latitude: float, longitude: float) -> str:
 def get_server() -> FastMCP:
     """Get the FastMCP server instance."""
     return mcp
+
+
+if __name__ == "__main__":
+    # Run the server with standard input/output transport
+    mcp.run(transport='stdio')

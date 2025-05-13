@@ -1,0 +1,13 @@
+{
+    "servers": {
+        "weather-mcp-server-8b38be43": {
+            "type": "stdio",
+            "command": "C:\\Users\\anshu\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\mcp-server-launcher-AojNC3K2-py3.13\\Scripts\\python.exe",
+            "args": [
+                "C:\\src\\mcpsandbox\\launcher\\launch.py",
+                "--mcp-server",
+                "weather"
+            ]
+        }
+    }
+}
