@@ -66,3 +66,13 @@ The Github Copilot can now be switched to agent mode by selecting the "Agent" op
 the left of the LLM selector, as shown below.
 
 ![agent mode select](docs/assets/agent_select.png)
+
+To verify that the MCP server tools are available to the client, click the "tool" icon in the input section. This will
+open a window with all the tools currently available to client - your server should be listed somewhere near the bottom
+of the list.
+
+![client tools](docs/assets/client_tools.png)
+
+The server is now successfully set up and related user queries will be routed to it from the MCP client LLM.
+
+![user query](docs/assets/user_query.png)
